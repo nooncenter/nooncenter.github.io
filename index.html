@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>مركز نون للدورات التعليمية والتدريبية — تاجوراء</title>
+<meta name="description" content="مركز نون للدورات التعليمية والتدريبية في تاجوراء – جزيرة القمودي: حصص منفردة لأي مادة ولأي سنة، اشتراكات شهرية، ومتابعة تلاميذ المرحلة الابتدائية في الدروس والواجبات والتسميع.">
+<meta name="theme-color" content="#0D2E2D">
+<meta property="og:title" content="مركز نون للدورات التعليمية والتدريبية">
+<meta property="og:description" content="حصص منفردة · اشتراكات شهرية · متابعة المرحلة الابتدائية — تاجوراء، جزيرة القمودي">
+<meta property="og:image" content="https://nooncenter.github.io/share.jpg"><meta property="og:url" content="https://nooncenter.github.io/"><meta property="og:type" content="website">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#13231F;--muted:#55665F;--deep:#0D2E2D;--green:#0F5F58;--teal:#1C7A70;--gold:#D4A63A;--gold2:#E9C25A;--cream:#F8F4EA;--card:#FFFFFF;--line:#E6DFCD;--wa:#1FA855;--r:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:400 17px/1.75 Tajawal,"Segoe UI",Tahoma,sans-serif;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Cairo,Tajawal,sans-serif;line-height:1.35;margin:0}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+/* header */
+.top{position:sticky;top:0;z-index:20;background:rgba(13,46,45,.92);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,166,58,.25)}
+.top .wrap{display:flex;align-items:center;gap:16px;height:70px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+.brand img{width:44px;height:44px;border-radius:50%;background:#fff1;object-fit:contain}
+.brand b{font:800 18px/1.2 Cairo,sans-serif}.brand small{display:block;font:500 12px Tajawal;color:var(--gold2)}
+.nav{margin-inline-start:auto;display:flex;gap:4px}
+.nav a{color:#d9e7e3;text-decoration:none;padding:8px 12px;border-radius:999px;font-weight:500;font-size:15px}
+.nav a:hover{background:#ffffff14;color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:999px;padding:12px 22px;font:700 16px Tajawal,sans-serif;text-decoration:none;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#1E1A0B;box-shadow:0 10px 24px rgba(212,166,58,.35)}
+.btn.ghost{background:#ffffff14;color:#fff;border:1px solid #ffffff40}
+.btn.wa{background:var(--wa);color:#fff;box-shadow:0 10px 22px rgba(31,168,85,.3)}
+.btn svg{width:20px;height:20px}
+.top .btn{padding:9px 16px;font-size:15px}
+/* hero */
+.hero{position:relative;color:#fff;overflow:hidden;background:var(--deep)}
+.hero .bg{position:absolute;inset:0;background:url(hero.webp) center/cover no-repeat;opacity:.38;filter:saturate(.9)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,46,45,.25) 0%,rgba(13,46,45,.85) 55%,rgba(13,46,45,.97) 100%),radial-gradient(60% 80% at 85% 20%,rgba(212,166,58,.18),transparent 60%)}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding-top:84px;padding-bottom:96px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--gold2);font-weight:700;letter-spacing:.2px;margin-bottom:14px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--gold2);border-radius:2px}
+.hero h1{font-size:clamp(32px,4.6vw,54px);font-weight:800}
+.hero h1 span{color:var(--gold2)}
+.hero p.lead{font-size:clamp(17px,1.9vw,20px);color:#d7e6e2;max-width:560px;margin:18px 0 28px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .badge{justify-self:center;width:min(340px,80%);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.12),rgba(255,255,255,.02) 60%);border:1px solid rgba(233,194,90,.35);box-shadow:0 0 0 14px rgba(233,194,90,.06),0 30px 80px rgba(0,0,0,.35)}
+.hero .badge img{width:72%;filter:drop-shadow(0 12px 30px rgba(0,0,0,.35))}
+.motto{margin-top:26px;color:var(--gold2);font:700 18px Cairo,sans-serif;opacity:.95}
+/* sections */
+section{padding:84px 0}
+.head{text-align:center;max-width:640px;margin:0 auto 44px}
+.head .eyebrow{justify-content:center}.head .eyebrow::after{content:"";width:28px;height:2px;background:var(--gold);border-radius:2px}
+.head .eyebrow{color:var(--gold)}.head .eyebrow::before{background:var(--gold)}
+.head h2{font-size:clamp(26px,3.2vw,38px);color:var(--deep)}
+.head p{color:var(--muted);margin:12px 0 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;box-shadow:0 1px 0 #fff inset,0 18px 40px rgba(13,46,45,.07);position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--gold),var(--teal))}
+.ico{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#E9F3F0,#F6EDD5);color:var(--green);margin-bottom:16px}
+.ico svg{width:30px;height:30px}
+.card h3{font-size:21px;color:var(--deep);margin-bottom:8px}
+.card p{margin:0;color:var(--muted)}
+.card ul{margin:12px 0 0;padding:0;list-style:none}
+.card li{position:relative;padding-inline-start:22px;margin:6px 0;color:var(--ink)}
+.card li::before{content:"";position:absolute;inset-inline-start:0;top:.62em;width:10px;height:10px;border-radius:3px;background:var(--gold);transform:rotate(45deg)}
+.stages{background:linear-gradient(180deg,#fff,var(--cream))}
+.stg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.stg div{background:var(--deep);color:#fff;border-radius:var(--r);padding:26px;text-align:center;border:1px solid rgba(233,194,90,.3)}
+.stg b{display:block;font:800 22px Cairo,sans-serif;color:var(--gold2)}
+.stg span{color:#cfe1dc}
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.why div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px 18px}
+.why b{display:block;font:700 17px Cairo,sans-serif;color:var(--deep);margin-bottom:4px}
+.why span{color:var(--muted);font-size:15.5px}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.steps div{position:relative;background:#fff;border-radius:18px;border:1px dashed #d8cfb6;padding:22px 20px 20px 20px}
+.steps div::before{counter-increment:s;content:counter(s);position:absolute;top:-16px;inset-inline-start:18px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#1E1A0B;font:800 16px Cairo}
+.steps b{display:block;font:700 17px Cairo,sans-serif;color:var(--deep);margin:6px 0 2px}
+.steps span{color:var(--muted);font-size:15.5px}
+/* form */
+.join{background:var(--deep);color:#fff;position:relative;overflow:hidden}
+.join::before{content:"";position:absolute;inset:0;background:radial-gradient(50% 60% at 10% 10%,rgba(212,166,58,.16),transparent 60%),radial-gradient(40% 50% at 90% 90%,rgba(28,122,112,.4),transparent 60%)}
+.join .wrap{position:relative;display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+.join .head{text-align:right;margin:0}.join .head h2{color:#fff}.join .head p{color:#cfe1dc}.join .head .eyebrow{justify-content:flex-start;color:var(--gold2)}.join .head .eyebrow::after{display:none}
+.contact{margin-top:28px;display:grid;gap:12px}
+.contact a,.contact div{display:flex;align-items:center;gap:12px;color:#e7f1ee;text-decoration:none;background:#ffffff0d;border:1px solid #ffffff1f;border-radius:16px;padding:12px 16px}
+.contact svg{width:22px;height:22px;color:var(--gold2);flex:none}
+.contact small{display:block;color:#a9c3bc;font-size:13px}
+form{background:#fff;color:var(--ink);border-radius:var(--r);padding:28px;box-shadow:0 30px 70px rgba(0,0,0,.3)}
+form h3{font-size:22px;color:var(--deep);margin-bottom:4px}
+form .sub{color:var(--muted);margin:0 0 18px;font-size:15.5px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:700;font-size:15px;margin-bottom:6px;color:var(--deep)}
+.f{margin-bottom:14px}
+input,select,textarea{width:100%;font:500 16px Tajawal,sans-serif;color:var(--ink);background:#FBFAF6;border:1.5px solid #E2DACA;border-radius:14px;padding:12px 14px;outline:none;transition:border-color .15s,box-shadow .15s}
+input:focus,select:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(28,122,112,.15);background:#fff}
+textarea{min-height:92px;resize:vertical}
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+form .btn{width:100%;margin-top:6px}
+.msg{margin-top:12px;border-radius:14px;padding:12px 14px;font-weight:500;display:none}
+.msg.ok{display:block;background:#E8F5EE;color:#17663D;border:1px solid #BFE3CD}
+.msg.bad{display:block;background:#FDECEA;color:#A3241B;border:1px solid #F3C3BD}
+footer{background:#08201F;color:#9fb9b2;padding:28px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+footer a{color:var(--gold2);text-decoration:none}
+.fab{position:fixed;left:18px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 12px 30px rgba(31,168,85,.45);color:#fff}
+.fab svg{width:30px;height:30px}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+@media (max-width:920px){.hero .wrap{grid-template-columns:1fr;text-align:center;padding-top:56px;padding-bottom:70px}.hero .badge{order:-1;width:190px}.hero .cta{justify-content:center}.hero p.lead{margin-inline:auto}.eyebrow{justify-content:center}.cards,.stg,.steps{grid-template-columns:1fr}.why{grid-template-columns:1fr 1fr}.join .wrap{grid-template-columns:1fr}.nav{display:none}}
+@media (max-width:520px){body{font-size:16px}.wrap{padding:0 16px}section{padding:64px 0}.grid2{grid-template-columns:1fr}.why{grid-template-columns:1fr}.top .btn span{display:none}.brand small{display:none}form{padding:22px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#"><img src="logo.png" alt="شعار مركز نون"><span><b>مركز نون</b><small>للدورات التعليمية والتدريبية</small></span></a>
+  <nav class="nav" aria-label="أقسام الموقع"><a href="#services">خدماتنا</a><a href="#stages">المراحل</a><a href="#how">كيف نبدأ</a><a href="#join">تواصل معنا</a></nav>
+  <a class="btn wa" href="https://wa.me/218917703257" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg><span>واتساب</span></a>
+</div></header>
+
+<section class="hero" style="padding:0">
+  <div class="bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">تاجوراء · جزيرة القمودي</div>
+      <h1>مركز <span>نون</span> للدورات<br>التعليمية والتدريبية</h1>
+      <p class="lead">دروس تقوية ومتابعة لطلبة التعليم الأساسي والثانوي: حصة في أي مادة متى احتجتها، أو اشتراك شهري بمواعيد ثابتة، ومتابعة يومية لتلاميذ الابتدائي.</p>
+      <div class="cta"><a class="btn gold" href="#join">سجّل استفسارك الآن</a><a class="btn ghost" href="https://wa.me/218917703257" target="_blank" rel="noopener">تواصل عبر واتساب</a></div>
+      <div class="motto">بالعلم.. نرتقي</div>
+    </div>
+    <div class="badge"><img src="logo.png" alt=""></div>
+  </div>
+</section>
+
+<section id="services"><div class="wrap">
+  <div class="head reveal"><div class="eyebrow">خدماتنا</div><h2>اختر ما يناسب ابنك</h2><p>ثلاث طرق للتعلّم معنا، حسب حاجة الطالب ووقته.</p></div>
+  <div class="cards">
+    <article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+      <h3>حصص منفردة</h3><p>حصة في أي مادة ولأي سنة دراسية، تحجزها عندما تحتاجها.</p>
+      <ul><li>قبل الامتحانات والمراجعات</li><li>لشرح درس صعب أو تقوية مادة</li><li>بلا اشتراك ولا التزام</li></ul></article>
+    <article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2"/></svg></div>
+      <h3>اشتراكات شهرية</h3><p>اشتراك شهري بحصص في أيام محددة من الأسبوع، بانتظام ومتابعة.</p>
+      <ul><li>جدول أسبوعي ثابت وواضح</li><li>متابعة حضور الطالب</li><li>تواصل مع وليّ الأمر</li></ul></article>
+    <article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2Z"/><path d="M8 7h6M8 11h6"/></svg></div>
+      <h3>متابعة المرحلة الابتدائية</h3><p>متابعة يومية لتلاميذ الابتدائي في كل ما يحتاجونه بعد المدرسة.</p>
+      <ul><li>شرح الدروس ومراجعتها</li><li>حلّ الواجبات</li><li>التسميع والحفظ</li></ul></article>
+  </div>
+</div></section>
+
+<section id="stages" class="stages"><div class="wrap">
+  <div class="head reveal"><div class="eyebrow">المراحل الدراسية</div><h2>لكل السنوات الدراسية</h2><p>من الصف الأول الأساسي حتى الثالث الثانوي.</p></div>
+  <div class="stg">
+    <div class="reveal"><b>الابتدائية</b><span>من الأول إلى السادس — متابعة يومية ودروس تقوية</span></div>
+    <div class="reveal"><b>الإعدادية</b><span>السابع والثامن والتاسع</span></div>
+    <div class="reveal"><b>الثانوية</b><span>الأولى والثانية والثالثة ثانوي</span></div>
+  </div>
+  <div class="head reveal" style="margin-top:64px"><div class="eyebrow">لماذا مركز نون</div><h2>متابعة تطمئنك</h2></div>
+  <div class="why">
+    <div class="reveal"><b>تواصل مع الأهل</b><span>رسائل واتساب بمواعيد الحصص وأي تغيير فيها.</span></div>
+    <div class="reveal"><b>متابعة الحضور</b><span>نسجّل حضور كل طالب، ونتابع الغياب.</span></div>
+    <div class="reveal"><b>إيصال لكل دفعة</b><span>إيصال رسمي واضح يصلك بكل دفعة.</span></div>
+    <div class="reveal"><b>مواعيد منظّمة</b><span>جدول أسبوعي واضح لكل مجموعة.</span></div>
+  </div>
+</div></section>
+
+<section id="how"><div class="wrap">
+  <div class="head reveal"><div class="eyebrow">كيف نبدأ</div><h2>ثلاث خطوات بسيطة</h2></div>
+  <div class="steps">
+    <div class="reveal"><b>أرسل استفسارك</b><span>من النموذج أسفل الصفحة أو عبر واتساب.</span></div>
+    <div class="reveal"><b>نتواصل معك</b><span>نتعرّف على حاجة الطالب ونقترح الأنسب له.</span></div>
+    <div class="reveal"><b>نبدأ</b><span>نحدد المواعيد، ويبدأ الطالب حصصه.</span></div>
+  </div>
+</div></section>
+
+<section id="join" class="join"><div class="wrap">
+  <div>
+    <div class="head"><div class="eyebrow">تواصل معنا</div><h2>يسعدنا استقبال ابنك</h2><p>اترك بياناتك ونتصل بك في أقرب وقت، أو تواصل معنا مباشرة.</p></div>
+    <div class="contact">
+      <a href="tel:+218917703257"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><span><small>اتصل بنا</small><b dir="ltr">091 770 3257</b></span></a>
+      <a href="https://wa.me/218917703257" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg><span><small>واتساب</small><b>راسلنا مباشرة</b></span></a>
+      <a href="https://www.facebook.com/profile.php?id=61550873060587" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.5c0-.7.5-1 1-1h2V2h-3c-3 0-4 2-4 4.5V8H8v3.5h2V22h4V11.5h2.6L17 8Z"/></svg><span><small>فيسبوك</small><b>تابع صفحتنا</b></span></a>
+      <a href="https://www.google.com/maps/search/?api=1&query=تاجوراء جزيرة القمودي" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span><small>العنوان</small><b>تاجوراء – جزيرة القمودي</b></span></a>
+    </div>
+  </div>
+  <form id="inq" novalidate>
+    <h3>استفسار عن التسجيل</h3><p class="sub">يصل استفسارك مباشرة إلى إدارة المركز.</p>
+    <div class="grid2">
+      <div class="f"><label for="q-name">الاسم</label><input id="q-name" name="name" maxlength="80" required autocomplete="name" placeholder="اسم وليّ الأمر أو الطالب"></div>
+      <div class="f"><label for="q-phone">رقم الهاتف</label><input id="q-phone" name="phone" inputmode="tel" maxlength="20" required autocomplete="tel" dir="ltr" placeholder="09X XXX XXXX" style="text-align:right"></div>
+    </div>
+    <div class="grid2">
+      <div class="f"><label for="q-stage">السنة الدراسية</label><select id="q-stage" name="stage"><option value="">— اختر —</option><option>الصف الأول</option><option>الصف الثاني</option><option>الصف الثالث</option><option>الصف الرابع</option><option>الصف الخامس</option><option>الصف السادس</option><option>الصف السابع</option><option>الصف الثامن</option><option>الصف التاسع</option><option>أولى ثانوي</option><option>ثانية ثانوي</option><option>ثالثة ثانوي</option></select></div>
+      <div class="f"><label for="q-svc">الخدمة المطلوبة</label><select id="q-svc" name="service"><option value="">— اختر —</option><option>حصص منفردة</option><option>اشتراك شهري</option><option>متابعة المرحلة الابتدائية</option><option>لم أقرر بعد</option></select></div>
+    </div>
+    <div class="f"><label for="q-note">ملاحظة (اختياري)</label><textarea id="q-note" name="note" maxlength="400" placeholder="مثال: الطالب يحتاج تقوية في الرياضيات"></textarea></div>
+    <div class="hp" aria-hidden="true"><label for="q-web">موقعك</label><input id="q-web" name="website" tabindex="-1" autocomplete="off"></div>
+    <button class="btn gold" type="submit">إرسال الاستفسار</button>
+    <div class="msg" id="q-msg" role="status" aria-live="polite"></div>
+  </form>
+</div></section>
+
+<footer><div class="wrap"><span>© <span id="yr">2026</span> مركز نون للدورات التعليمية والتدريبية — تاجوراء</span><a href="https://www.facebook.com/profile.php?id=61550873060587" target="_blank" rel="noopener">صفحتنا على فيسبوك</a></div></footer>
+<a class="fab" href="https://wa.me/218917703257" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+
+<script>
+(function(){
+  var API=(new URLSearchParams(location.search).get('api'))||'https://fboasldbuwclpzfefekw.supabase.co', KEY='sb_publishable_ytR-vV8dro5Rf6ddTRq1Zw_drMfUoyR', WA='https://wa.me/218917703257';
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  // gentle reveal on scroll
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); },{threshold:.12}):null;
+  document.querySelectorAll('.reveal').forEach(function(el){ if(io) io.observe(el); else el.classList.add('in'); });
+  var f=document.getElementById('inq'), msg=document.getElementById('q-msg'), btn=f.querySelector('button');
+  function show(t,ok){ msg.className='msg '+(ok?'ok':'bad'); msg.innerHTML=t; }
+  function latin(v){ return String(v).replace(/[٠-٩]/g,function(c){ return '٠١٢٣٤٥٦٧٨٩'.indexOf(c); }).replace(/[۰-۹]/g,function(c){ return '۰۱۲۳۴۵۶۷۸۹'.indexOf(c); }); }
+  function waLink(d){ var t='السلام عليكم، أريد الاستفسار عن التسجيل في مركز نون.\nالاسم: '+d.name+'\nالهاتف: '+d.phone+(d.stage?'\nالسنة: '+d.stage:'')+(d.service?'\nالخدمة: '+d.service:'')+(d.note?'\nملاحظة: '+d.note:''); return WA+'?text='+encodeURIComponent(t); }
+  f.addEventListener('submit',async function(e){
+    e.preventDefault();
+    var d={name:f.name.value.trim(),phone:latin(f.phone.value).replace(/[^\d+]/g,''),stage:f.stage.value,service:f.service.value,note:f.note.value.trim(),hp:f.website.value};
+    if(d.name.length<2){ show('اكتب الاسم من فضلك.'); f.name.focus(); return; }
+    if(d.phone.length<9){ show('اكتب رقم هاتف صحيحاً، مثل 0912345678.'); f.phone.focus(); return; }
+    btn.disabled=true; btn.textContent='جارٍ الإرسال…';
+    try{
+      var r=await fetch(API+'/rest/v1/rpc/public_inquiry',{method:'POST',headers:{'Content-Type':'application/json',apikey:KEY},body:JSON.stringify({p_name:d.name,p_phone:d.phone,p_stage:d.stage,p_service:d.service,p_note:d.note,p_hp:d.hp})});
+      if(!r.ok){ var j={}; try{ j=await r.json(); }catch(x){} throw new Error(j.message||('HTTP '+r.status)); }
+      f.reset(); show('✓ وصل استفسارك، شكراً لك! سنتواصل معك في أقرب وقت.',true);
+    }catch(err){
+      var m=String(err&&err.message||'');
+      if(/too_many/.test(m)) show('وصلنا استفسارك من هذا الرقم اليوم، وسنتواصل معك قريباً.',true);
+      else show('تعذر الإرسال الآن. يمكنك إرسال الاستفسار عبر واتساب: <a href="'+waLink(d)+'" target="_blank" rel="noopener"><b>اضغط هنا</b></a>');
+    }
+    btn.disabled=false; btn.textContent='إرسال الاستفسار';
+  });
+})();
+</script>
+</body>
+</html>
