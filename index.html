@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>مركز نون للدورات التعليمية والتدريبية — تاجوراء</title>
-<meta name="description" content="مركز نون للدورات التعليمية والتدريبية في تاجوراء – جزيرة القمودي: حصص منفردة لأي مادة ولأي سنة، اشتراكات شهرية، ومتابعة تلاميذ المرحلة الابتدائية في الدروس والواجبات والتسميع.">
+<title>مركز نون للدورات المنهجية والتعليمية — تاجوراء</title>
+<meta name="description" content="مركز نون للدورات المنهجية والتعليمية في تاجوراء – جزيرة القمودي: حصص منفردة لأي مادة ولأي سنة، اشتراكات شهرية، ومتابعة تلاميذ المرحلة الابتدائية في الدروس والواجبات والتسميع.">
 <meta name="theme-color" content="#0D2E2D">
-<meta property="og:title" content="مركز نون للدورات التعليمية والتدريبية">
-<meta property="og:description" content="حصص منفردة · اشتراكات شهرية · متابعة المرحلة الابتدائية — تاجوراء، جزيرة القمودي">
+<meta property="og:title" content="مركز نون للدورات المنهجية والتعليمية">
+<meta property="og:description" content="حصص منفردة · حصص VIP · اشتراكات شهرية · متابعة المرحلة الابتدائية — تاجوراء، جزيرة القمودي">
 <meta property="og:image" content="https://nooncenter.github.io/share.jpg"><meta property="og:url" content="https://nooncenter.github.io/"><meta property="og:type" content="website">
 <link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +56,8 @@ section{padding:84px 0}
 .head .eyebrow{color:var(--gold)}.head .eyebrow::before{background:var(--gold)}
 .head h2{font-size:clamp(26px,3.2vw,38px);color:var(--deep)}
 .head p{color:var(--muted);margin:12px 0 0}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card.vip{border-color:var(--gold);background:linear-gradient(180deg,#FFF9E3,#fff)}.card.vip .ico{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#1E1A0B}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 26px;box-shadow:0 1px 0 #fff inset,0 18px 40px rgba(13,46,45,.07);position:relative;overflow:hidden}
 .card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--gold),var(--teal))}
 .ico{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#E9F3F0,#F6EDD5);color:var(--green);margin-bottom:16px}
@@ -130,7 +131,7 @@ footer a{color:var(--gold2);text-decoration:none}
 <body>
 <a class="news" href="#join"><span>جديد</span>التسجيل مفتوح، مازال هناك فرصة!</a>
 <header class="top"><div class="wrap">
-  <a class="brand" href="#"><img src="logo.png" alt="شعار مركز نون"><span><b>مركز نون</b><small>للدورات التعليمية والتدريبية</small></span></a>
+  <a class="brand" href="#"><img src="logo.png" alt="شعار مركز نون"><span><b>مركز نون</b><small>للدورات المنهجية والتعليمية</small></span></a>
   <nav class="nav" aria-label="أقسام الموقع"><a href="#services">خدماتنا</a><a href="#stages">المراحل</a><a href="#how">كيف نبدأ</a><a href="#faq">أسئلة شائعة</a><a href="#join">تواصل معنا</a></nav>
   <a class="btn wa" href="https://wa.me/218917703257" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg><span>واتساب</span></a>
 </div></header>
@@ -140,7 +141,7 @@ footer a{color:var(--gold2);text-decoration:none}
   <div class="wrap">
     <div>
       <div class="eyebrow">تاجوراء · جزيرة القمودي</div>
-      <h1>مركز <span>نون</span> للدورات<br>التعليمية والتدريبية</h1>
+      <h1>مركز <span>نون</span> للدورات<br>المنهجية والتعليمية</h1>
       <p class="lead">دروس تقوية ومتابعة لطلبة التعليم الأساسي والثانوي: حصة في أي مادة متى احتجتها، أو اشتراك شهري بمواعيد ثابتة، ومتابعة يومية لتلاميذ الابتدائي.</p>
       <div class="cta"><a class="btn gold" href="#join">سجّل استفسارك الآن</a><a class="btn ghost" href="https://wa.me/218917703257" target="_blank" rel="noopener">تواصل عبر واتساب</a></div>
       <div class="motto">بالعلم.. نرتقي</div>
@@ -150,7 +151,7 @@ footer a{color:var(--gold2);text-decoration:none}
 </section>
 
 <section id="services"><div class="wrap">
-  <div class="head reveal"><div class="eyebrow">خدماتنا</div><h2>اختر ما يناسب ابنك</h2><p>ثلاث طرق للتعلّم معنا، حسب حاجة الطالب ووقته.</p></div>
+  <div class="head reveal"><div class="eyebrow">خدماتنا</div><h2>اختر ما يناسب ابنك</h2><p>أربع طرق للتعلّم معنا، حسب حاجة الطالب ووقته.</p></div>
   <div class="cards">
     <article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
       <h3>حصص منفردة</h3><p>حصة في أي مادة ولأي سنة دراسية، تحجزها عندما تحتاجها.</p>
@@ -161,6 +162,9 @@ footer a{color:var(--gold2);text-decoration:none}
     <article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2Z"/><path d="M8 7h6M8 11h6"/></svg></div>
       <h3>متابعة المرحلة الابتدائية</h3><p>متابعة يومية لتلاميذ الابتدائي في كل ما يحتاجونه بعد المدرسة.</p>
       <ul><li>شرح الدروس ومراجعتها</li><li>حلّ الواجبات</li><li>التسميع والحفظ</li></ul></article>
+    <article class="card vip reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7Z"/></svg></div>
+      <h3>حصة VIP</h3><p>حصة خاصة للطالب وحده، دون باقي الطلبة، وقد تمتد حتى ثلاث ساعات حسب حاجته.</p>
+      <ul><li>انتباه كامل من المعلم للطالب</li><li>لأي مادة، ولطلبة المدارس والمعاهد وغيرهم</li><li>موعد يُتفق عليه مسبقاً</li></ul></article>
   </div>
 </div></section>
 
@@ -195,6 +199,7 @@ footer a{color:var(--gold2);text-decoration:none}
     <details class="reveal"><summary>كيف أسجّل ابني؟</summary><p>أرسل استفسارك من النموذج في أسفل الصفحة أو راسلنا على واتساب، أو زرنا في أوقات الدوام.</p></details>
     <details class="reveal"><summary>هل يمكن أخذ حصة واحدة فقط؟</summary><p>نعم، الحصص المنفردة متاحة لأي مادة ولأي سنة دراسية، بلا اشتراك.</p></details>
     <details class="reveal"><summary>ما الفرق بين الحصة المنفردة والاشتراك الشهري؟</summary><p>الحصة المنفردة تحجزها عند الحاجة، أما الاشتراك فحصص منتظمة في أيام ثابتة كل أسبوع.</p></details>
+    <details class="reveal"><summary>ما هي حصة VIP؟</summary><p>حصة خاصة يحضرها الطالب وحده دون باقي الطلبة، وقد تصل مدتها إلى ثلاث ساعات. تناسب من يريد تركيزاً كاملاً على مادة أو درس معيّن، وهي متاحة أيضاً لطلبة المعاهد وغيرهم. اتصل بنا لتحديد الموعد.</p></details>
     <details class="reveal"><summary>ماذا تشمل متابعة المرحلة الابتدائية؟</summary><p>شرح الدروس ومراجعتها، وحلّ الواجبات، والتسميع.</p></details>
     <details class="reveal"><summary>لماذا لا توجد أسعار في الموقع؟</summary><p>لأنها تختلف حسب السنة الدراسية والخدمة. أرسل استفسارك ونخبرك بالتفاصيل.</p></details>
     <details class="reveal"><summary>كيف أعرف مواعيد ابني وحضوره؟</summary><p>نرسل لك المواعيد وأي تغيير فيها عبر واتساب، ونسجّل حضور الطالب في كل حصة.</p></details>
@@ -221,7 +226,7 @@ footer a{color:var(--gold2);text-decoration:none}
     </div>
     <div class="grid2">
       <div class="f"><label for="q-stage">السنة الدراسية</label><select id="q-stage" name="stage"><option value="">— اختر —</option><option>الصف الأول</option><option>الصف الثاني</option><option>الصف الثالث</option><option>الصف الرابع</option><option>الصف الخامس</option><option>الصف السادس</option><option>الصف السابع</option><option>الصف الثامن</option><option>الصف التاسع</option><option>أولى ثانوي</option><option>ثانية ثانوي</option><option>ثالثة ثانوي</option></select></div>
-      <div class="f"><label for="q-svc">الخدمة المطلوبة</label><select id="q-svc" name="service"><option value="">— اختر —</option><option>حصص منفردة</option><option>اشتراك شهري</option><option>متابعة المرحلة الابتدائية</option><option>لم أقرر بعد</option></select></div>
+      <div class="f"><label for="q-svc">الخدمة المطلوبة</label><select id="q-svc" name="service"><option value="">— اختر —</option><option>حصص منفردة</option><option>اشتراك شهري</option><option>حصة VIP</option><option>متابعة المرحلة الابتدائية</option><option>لم أقرر بعد</option></select></div>
     </div>
     <div class="f"><label for="q-note">ملاحظة (اختياري)</label><textarea id="q-note" name="note" maxlength="400" placeholder="مثال: الطالب يحتاج تقوية في الرياضيات"></textarea></div>
     <div class="hp" aria-hidden="true"><label for="q-web">موقعك</label><input id="q-web" name="website" tabindex="-1" autocomplete="off"></div>
@@ -230,7 +235,7 @@ footer a{color:var(--gold2);text-decoration:none}
   </form>
 </div></section>
 
-<footer><div class="wrap"><span>© <span id="yr">2026</span> مركز نون للدورات التعليمية والتدريبية — تاجوراء</span><a href="https://www.facebook.com/profile.php?id=61550873060587" target="_blank" rel="noopener">صفحتنا على فيسبوك</a></div></footer>
+<footer><div class="wrap"><span>© <span id="yr">2026</span> مركز نون للدورات المنهجية والتعليمية — تاجوراء</span><a href="https://www.facebook.com/profile.php?id=61550873060587" target="_blank" rel="noopener">صفحتنا على فيسبوك</a></div></footer>
 <a class="fab" href="https://wa.me/218917703257" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
 
 <script>
